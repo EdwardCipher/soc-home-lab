@@ -69,7 +69,7 @@ Screenshots of the detection process are available in the `screenshots` folder.
 ![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.PNG)
 
 ### Splunk Dashboard
-![Splunk Dashboard](screenshots/SOC-dashboard.PNG)
+![Splunk Dashboard](screenshots/SOC-dashboard.png)
 ---
 
 ## 🚀 Future Improvements
