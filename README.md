@@ -1,36 +1,71 @@
-# soc-home-lab
-SOC home lab with Wazuh SIEM, Sysmon telemetry, and Splunk-based SSH brute-force detection mapped to MITRE ATT&amp;C
+# SOC Home Lab – Wazuh + Sysmon + Splunk
 
-SOC Home Lab – SIEM & Brute Force Detection
+This project demonstrates a basic SOC home lab built for security monitoring and SSH brute-force detection.
 
-This project demonstrates a basic SOC home lab environment built for security monitoring and brute-force detection.
+The goal of this lab is to understand log collection, event analysis, and simple detection use cases.
 
-🧩 Architecture
+---
 
-Wazuh SIEM (All-in-One) on Linux
+## 🔧 Lab Components
 
-Windows endpoint with Sysmon and Wazuh Agent
+- Wazuh SIEM (All-in-One) on Linux  
+- Windows 10 endpoint with Sysmon  
+- Splunk Enterprise on a separate Linux VM  
 
-Splunk Enterprise on separate Linux VM
+---
 
-SSH brute-force simulation and detection
+## 🏗️ Architecture
 
-Use Cases Implemented
+All machines are connected in the same virtual network.
 
-SSH brute-force detection in Splunk
+### Log Flow
 
-Field extraction for authentication logs
+Sysmon → Wazuh Agent → Wazuh Server → Splunk
 
-Successful login detection after brute-force
+1. Sysmon collects Windows security telemetry  
+2. Wazuh agent forwards logs to the Wazuh server  
+3. Wazuh processes and stores the events  
+4. Splunk is used for log searching and detection  
 
-MITRE ATT&CK mapping in Wazuh
+![Architecture](architecture.png)
 
-Real-time alert monitoring
+---
 
-Test Scenario
+## 🎯 Use Case – SSH Brute-Force Detection
 
-Simulated SSH failed logins
+This lab simulates an SSH brute-force attack and detects it using Splunk.
 
-Observed alerts in Wazuh
+### Detection Logic
 
-Correlated events in Splunk
+- Multiple failed SSH login attempts  
+- Followed by a successful login  
+- From the same source IP  
+
+Mapped to:
+
+MITRE ATT&CK  
+T1110 – Brute Force  
+
+---
+
+## 🔍 What I Learned
+
+- SIEM deployment and basic configuration  
+- Windows event collection using Sysmon  
+- Log forwarding with Wazuh agent  
+- Searching and analyzing logs in Splunk  
+- Creating a simple detection use case  
+
+---
+
+## 📸 Screenshots
+
+Screenshots of the detection process are available in the `screenshots` folder.
+
+---
+
+## 🚀 Future Improvements
+
+- Create a Splunk dashboard  
+- Add alerting for brute-force detection  
+- Add more attack scenarios  
