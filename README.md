@@ -69,11 +69,10 @@ Screenshots of the detection process are available in the `screenshots` folder.
 ![Wazuh](screenshots/ssh-alert-details(rule).PNG)
 
 
-
 ### Brute-force Detection in Splunk
 ![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.PNG)
 
-### Splunk Dashboard
+### Splunk IPV4-IPV6
 ![Splunk Dashboard](screenshots/success-login-after-bruteforce-and-ipv4-ipv6.PNG)
 
 ---
