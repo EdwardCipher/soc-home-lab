@@ -65,6 +65,9 @@ Screenshots of the detection process are available in the `screenshots` folder.
 ### Wazuh Event Collection
 ![Wazuh](screenshots/events.PNG)
 
+### Wazuh Event Collection
+![Wazuh](screenshots/event-jason.PNG)
+
 ### Brute-force Detection in Splunk
 ![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.PNG)
 
