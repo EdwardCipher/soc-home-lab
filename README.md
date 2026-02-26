@@ -65,14 +65,17 @@ Screenshots of the detection process are available in the `screenshots` folder.
 ### Wazuh Event Collection
 ![Wazuh](screenshots/events.PNG)
 
-### Wazuh Event Collection
-![Wazuh](screenshots/event-jason.PNG)
+### Wazuh Alert Details
+![Wazuh](screenshots/ssh-alert-details(rule).PNG)
+
+
 
 ### Brute-force Detection in Splunk
 ![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.PNG)
 
 ### Splunk Dashboard
-![Splunk Dashboard](screenshots/SOC-dashboard.png)
+![Splunk Dashboard](screenshots/success-login-after-bruteforce-and-ipv4-ipv6.PNG)
+
 ---
 
 ## 🚀 Future Improvements
