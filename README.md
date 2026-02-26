@@ -66,10 +66,10 @@ Screenshots of the detection process are available in the `screenshots` folder.
 ![Wazuh](screenshots/events.PNG)
 
 ### Brute-force Detection in Splunk
-![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.png)
+![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.PNG)
 
 ### Splunk Dashboard
-![Splunk Dashboard](screenshots/SOC-dashboard.png)
+![Splunk Dashboard](screenshots/SOC-dashboard.PNG)
 ---
 
 ## 🚀 Future Improvements
