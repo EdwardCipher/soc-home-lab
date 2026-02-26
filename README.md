@@ -63,7 +63,7 @@ T1110 – Brute Force
 Screenshots of the detection process are available in the `screenshots` folder.
 
 ### Wazuh Event Collection
-![Wazuh](screenshots/events.png)
+![Wazuh](screenshots/events.PNG)
 
 ### Brute-force Detection in Splunk
 ![Splunk Detection](screenshots/splunk-ssh-bruteforce-detection.png)
